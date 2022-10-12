@@ -10,7 +10,7 @@ export default function Main() {
   const [modalCards, setModalCards] = useState(false)
   const [address, setAddress] = useState([])
 
-  const teste = (e)=>{
+  const handleSubmitForm = (e)=>{
     if(!cep){
        return alert('O campo CEP deve ser preenchido!')
     }
@@ -37,7 +37,7 @@ export default function Main() {
         />
         <h1>Aqui na <span>Omnix Net</span> você encontra os melhores planos de internet.</h1>
         <div className="form-container">
-          <form onSubmit={teste}>
+          <form onSubmit={handleSubmitForm}>
             <h4>Por favor, informe seu CEP</h4>
             <input value={cep} 
                   onChange={(e)=>setCep(e.target.value)}

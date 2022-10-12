@@ -8,6 +8,8 @@ export default function Offers({modalCards, setModalCards, address}){
         {modalCards &&
             <div className="container">
                 <XCircle size={40} 
+                        title="Fechar"
+                        alt="Fechar ofertas"
                         className="btn-close" 
                         onClick={()=>setModalCards(false)}/>
                 <div className="container-cards">
