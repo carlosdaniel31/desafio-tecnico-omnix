@@ -19,15 +19,15 @@ export default function Offers({modalCards, setModalCards, address}){
                         <span>-Consulte Disponibilidade</span>
                     </div>
                     <div className="card">
-                        <h2>15 Mega</h2>
-                        <p>R$ 79,90/mês</p>
+                        <h2>25 Mega</h2>
+                        <p>R$ 89,90/mês</p>
                         <span>-Consumo Ilimitado</span>
                         <span>-100% Fibra Óptica</span>
                         <span>-Consulte Disponibilidade</span>
                     </div>
                     <div className="card">
-                        <h2>15 Mega</h2>
-                        <p>R$ 79,90/mês</p>
+                        <h2>40 Mega</h2>
+                        <p>R$ 99,90/mês</p>
                         <span>-Consumo Ilimitado</span>
                         <span>-100% Fibra Óptica</span>
                         <span>-Consulte Disponibilidade</span>
