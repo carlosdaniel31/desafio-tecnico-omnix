@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-text: #3F3F55;
+    --color-purple: #401ba3e1;
+    --color-purple-hover: #4c2f9be1;
+    --color-white: #f2f2f2;
+    --color-border: #D0D5DD;
+
+    font-family: 'Poppins', sans-serif;
+}
